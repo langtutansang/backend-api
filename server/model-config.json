@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "users": {
+    "dataSource": "mongodb",
+    "public": true,
+    "options": {
+      "emailVerificationRequired": false
+    }
+  },
+  "AccessToken": {
+    "dataSource": "mongodb",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "mongodb",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "mongodb",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "mongodb",
+    "public": false
+  },
+  "email": {
+    "dataSource": "email",
+    "public": true
+  },
+  "permit": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "typeDocuments": {
+    "dataSource": "mongodb",
+    "public": true
+  }
+}

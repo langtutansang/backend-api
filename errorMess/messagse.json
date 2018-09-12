@@ -1,0 +1,52 @@
+{
+  "IP_NOT_EXIST": {
+    "num": 0,
+    "messagse": "Ip is not exist.",
+    "code" : "IP_NOT_EXIST"
+  },
+  "IP_INVALID": {
+    "num": 1,
+    "messagse": "Ip invalid.",
+    "code" : "IP_INVALID"
+  },
+  "ACCESS_TOKEN_NOT_EXIST": {
+    "num": 2,
+    "messagse": "Access token is not exist.",
+    "code" : "ACCESS_TOKEN_NOT_EXIST"
+  },
+  "SERVER_DISCONNECT": {
+    "num": 3,
+    "messagse": "Server disconnect",
+    "code" : "SERVER_DISCONNECT"
+  },
+  "USER_NOT_EXIST_FOR_TOKEN": {
+    "num": 4,
+    "messagse": "User not exist for token.",
+    "code" : "USER_NOT_EXIST_FOR_TOKEN"
+  },
+  "USER_DISABLED": {
+    "num": 5,
+    "messagse": "User disabled.",
+    "code" : "USER_DISABLED"
+  },
+  "DATA_NO_MATCH": {
+    "num": 6,
+    "messagse": "Data no match.",
+    "code" : "DATA_NO_MATCH"
+  },
+  "USER_TOKEN_NOT_EXIST": {
+    "num": 7,
+    "messagse": "User token not exist.",
+    "code" : "USER_TOKEN_NOT_EXIST"
+  },
+  "USER_NOT_EXIST": {
+    "num": 8,
+    "messagse": "User not exist.",
+    "code" : "USER_NOT_EXIST"
+  },
+  "LOGIN_FAILED": {
+    "num": 401,
+    "messagse": "Login failed",
+    "code" : "LOGIN_FAILED"
+  }
+}
